@@ -14,6 +14,7 @@ BuildRequires:	artsc-devel
 BuildRequires:	jack-audio-connection-kit-devel
 BuildRequires:	kdelibs-devel
 BuildRequires:	libsamplerate-devel
+BuildRequires:	rpmbuild(macros) >= 1.129
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -27,7 +28,7 @@ K3Guitune to prosty program do strojenia instrumentów muzycznych.
 
 %build
 %configure \
-	kde_htmldir="%{_datadir}/doc/kde/HTML" \
+	kde_htmldir="%{_kdedocdir}" \
 	--with-qt-libraries=%{_libdir}
 %{__make}
 
