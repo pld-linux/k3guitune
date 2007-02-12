@@ -1,5 +1,5 @@
 Summary:	K3Guitune - a simple guitar tuning program
-Summary(pl.UTF-8):   K3Guitune - program do strojenia gitary
+Summary(pl.UTF-8):	K3Guitune - program do strojenia gitary
 Name:		k3guitune
 Version:	0.5.2
 Release:	0.1
