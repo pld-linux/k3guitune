@@ -7,5 +7,4 @@ DocPath=k3guitune/index.html
 Terminal=false
 Type=Application
 Categories=Qt;KDE;Audio;
-Encoding=UTF-8
 # vi: encoding=utf-8
